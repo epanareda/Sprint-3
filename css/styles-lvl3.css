@@ -1,0 +1,73 @@
+/* header - index */
+.header-background {
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    top: -25rem;
+}
+
+/* product name - index */
+.product-name {
+    font-size: 1rem;
+    position: absolute;
+    top: -1rem;
+}
+
+/* offert label product - index */
+.corner-label-container {
+    /* width: 40%; */
+    right: 0.3rem;
+    top: 0.27rem;
+}
+
+.label-text {
+    top: -4.875rem;
+    right: 0.3rem;
+    rotate: 45deg;
+    user-select: none;
+}
+
+/* product price - index */
+.product-price {
+    position: absolute;
+    width: 4rem;
+    text-align: center;
+    bottom: 4.85rem;
+    right: 1.5rem;
+    background-color: white;
+    border-radius: 5%;
+    border: 0.1em solid lightgrey;
+    padding: 0 0.1rem;
+    user-select: none;
+}
+
+/* background colors - index, checkout */
+.bg-lightgray {
+    background-color: lightgray;
+}
+
+.bg-superlightgray {
+    background-color: rgb(243, 243, 243);
+}
+
+
+/* TABLET DEVICE */
+
+@media only screen and (max-width: 75rem) {
+    /* header - index */
+    .header-background {
+        width: 120%;
+        top: -15rem;
+        left: -10%;
+    }
+}
+
+
+/* PHONE DEVICE */
+
+@media only screen and (max-width: 37.5rem) { /* 600 / 16 = 37.5 */
+    /* header - index */
+    .header-background {
+        top: 0;
+    }
+}
